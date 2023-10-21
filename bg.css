@@ -1,0 +1,77 @@
+.body {
+    background-color: #FFF;
+}
+.header {
+    background-color: #F9F9FF;
+    color: #5D5A88
+}
+.header__link:hover {
+    color: #1500FF;
+}
+.header__link:active {
+    color: #000;
+}
+.background {
+    height: 570px;
+    background-color: #F2F1FA;
+    background-image: url(./images/css.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 50px;
+}
+.bg-xl_center {
+    background-position: center;
+}
+.bg-xl_right {
+    background-position: right center; 
+}
+.bg-xl_repeat {
+    background-repeat: repeat;
+    background-position: center;
+}
+.bg-s {
+    background-position: left;
+    background-size: auto 50%;
+}
+.bg-s_repeat-x {
+    background-size: auto 50%;
+    background-repeat: repeat-x
+}
+.bg-s_repeat-inital  {
+    background-repeat: repeat;
+    background-position: initial;
+}
+.bg-s_rep{
+    background-repeat: initial;
+}
+.bg-s_repeat-center {
+    background-position: top center;
+}
+.bg-s_repeat-duble {
+    background-repeat: repeat;
+    background-position: top left ;
+    background-size: auto 45%;
+}
+.repeat-final{
+    background-position: center;
+}
+.bg-s_center {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-s_repeat-y {
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.bg-s_center-y {
+    background-repeat: repeat-y;
+    background-position: center;   
+}
+.background_double {
+    background-image: url(./images/green.png), url(./images/mantis.png);
+    background-position: center, center;
+    background-size: auto 50%, 100% auto;
+}
+.footer {
+    color: #9795B5;
+}
